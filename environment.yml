@@ -1,0 +1,10 @@
+name: yuumibot
+channels:
+  - defaults
+  - pypi
+  - conda-forge
+dependencies:
+  - pip=23.2.1
+  - pillow=10.0.1
+  - pip:
+      - opencv-python==4.8.1.78
